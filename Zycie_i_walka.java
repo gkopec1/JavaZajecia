@@ -17,6 +17,8 @@ public class Zycie_i_walka {
 
 
             if (opcja.equals("walka")) {
+                Random r = new Random();
+                int randomInt=r.nextInt(100) + 1;
 
             }
             if (opcja.equals("statystyki")) {
